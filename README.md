@@ -108,10 +108,11 @@ Combined: Aggressive push toward 0, but smooth enough to allow gradual learning
 
 ### Visual Results: Gate Value Distribution
 
-![Gate Distribution for λ=0.001](final_gate_distribution.png)
+<img width="691" height="470" alt="final_gate_distribution" src="https://github.com/user-attachments/assets/13185edd-fe54-4aa1-8362-228a77fc375f" />
 
 **Interpretation of the histogram:**
 - **Massive spike at 0**: ~1.6 million weights pruned (gate value < 0.01)
+
 - **Clusters between 0.8–1.0**: Remaining active connections
 - **Clear separation**: Binary-like behavior despite continuous optimization
 - **No ambiguous middle values**: Sigmoid bounds successfully pushed optimization to extremes
