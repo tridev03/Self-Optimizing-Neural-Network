@@ -306,5 +306,4 @@ Expected variance due to random initialization and data shuffling:
 
 **Ready to run:** `python self_pruning_network.py`
 
-**Ready to deploy:** Check the "Future Enhancements" section for production considerations.
 
